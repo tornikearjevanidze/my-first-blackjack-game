@@ -71,8 +71,8 @@ function newCard(){
     let Card = getRandomCard()
     sum += Card
     cards.push(Card)
+    renderGame()
 
     
     }
-    renderGame()
 }
