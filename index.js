@@ -74,6 +74,6 @@ function newCard(){
     renderGame()
 
     
-    } else {
+    } else if(isAlive === false && hasBlackJack === true) {
         renderGame()
 }
