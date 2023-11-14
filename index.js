@@ -74,5 +74,6 @@ function newCard(){
     renderGame()
 
     
-    }
+    } else {
+        renderGame()
 }
